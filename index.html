@@ -18,5 +18,16 @@
 		Denne side er til test af javascript functions
 	</p>
 </header>
+<script type="text/javascript">
+'use strict';
+let f = function(x) {
+	if (x <= 1)
+   		return 1;
+	else
+   	 	return x * f(x - 1);
+}
+let x = Number(prompt('indtast tal her'));
+document.write(f(x));
+</script>
 </body>
 </html>

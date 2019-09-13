@@ -33,3 +33,16 @@ let isPrime = function(p) {
 	i++;
 }
 console.log(isPrime());
+
+//Assignment JS.Loops.3
+let r = Number(prompt('indtast roden her'));
+let e = Number(prompt('indtast opførsel her'));
+let pow = function(r, e) {
+	if (e <= 1) {
+		return r;
+	} 
+	return r * pow(r, e-1);
+}
+console.log(pow(r, e));
+
+//Assignment JS.Loops.71
