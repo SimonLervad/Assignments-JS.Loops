@@ -44,5 +44,3 @@ let pow = function(r, e) {
 	return r * pow(r, e-1);
 }
 console.log(pow(r, e));
-
-//Assignment JS.Loops.71
